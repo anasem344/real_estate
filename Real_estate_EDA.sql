@@ -177,13 +177,12 @@ WHERE total_area IS NOT NULL;
 -- ----------- | ----------- | ----------- | -------------- | --------------
 -- 1.00        | 100.00      | 2.77        | 2.65           | 3.82
 
--- Выводы:
--- • Минимальная высота потолков — 1 м, что явно некорректное значение и, вероятно, является ошибкой в данных.
--- • Максимальная высота — 100 м, также явно экстремальная ошибка (нереалистично для жилых помещений).
--- • Средняя высота — 2,77 м, что ближе к реальной норме стандартных квартир.
--- • Медиана — 2,65 м, отражает типичную высоту потолков для большинства объектов.
--- • 99-й перцентиль — 3,82 м, показывает верхний предел нормальных квартир (высокие потолки в элитных квартирах).
--- • Вывод: при анализе данных по потолкам необходимо фильтровать явные ошибки (например, <2 м или >6 м), чтобы получать корректные статистики.
+-- Minimum ceiling height — 1 m, clearly incorrect and likely a data error.
+-- Maximum height — 100 m, also an extreme error (unrealistic for residential units).
+-- Average height — 2.77 m, closer to the normal standard for apartments.
+-- Median — 2.65 m, reflecting the typical ceiling height for most units.
+-- 99th percentile — 3.82 m, showing the upper limit for normal apartments (high ceilings in luxury units).
+-- Conclusion: when analyzing ceiling height data, obvious errors (e.g., <2 m or >6 m) should be filtered out to obtain accurate statistics.
 
 -- Stats for apartment floors:
 -- min_floor | max_floor | avg_floor | median_floor | perc99_floor
