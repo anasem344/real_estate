@@ -2,9 +2,11 @@
 Educational project analyzing the real estate market in Saint Petersburg and the Leningrad Region using Yandex Real Estate data. SQL queries and a DataLens dashboard identify attractive market segments and seasonal trends to support the agency’s market entry strategy.
 
 Анализ рынка недвижимости Санкт-Петербурга и Ленинградской области
+
 **Описание проекта**
 Проект выполнен в рамках модуля по аналитике данных.
 Цель — определить наиболее перспективные сегменты рынка жилой недвижимости Санкт-Петербурга и Ленинградской области, а также выявить сезонные тенденции для планирования бизнес-стратегии агентства недвижимости, планирующего выход в новый регион.
+
 **Входные данные**
 Используется база данных real_estate, содержащая архивные объявления сервиса Яндекс Недвижимость о продаже жилой недвижимости в Санкт-Петербурге и Ленинградской области за несколько лет.
 
